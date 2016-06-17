@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+</head>
+<body>
+<div th:fragment="home">
+    <div class="jumbotron">
+        <div class="row text-center">
+            <div class="">
+                <img class="img-responsive" src="../static/images/NewBannerBOOTS_2.png" width="1000"
+                     th:src="@{images/NewBannerBOOTS_2.png}"/>
+                <h1>Welcome</h1>
+
+                <h2>This is a wok thru of the Spring Framework Guru tutorial</h2>
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="list-group">
+            <h3>
+                <a href="https://springframework.guru/spring-boot-web-application-part-1-spring-initializr/" class="list-group-item">Part 1 - Spring Initializr</a>
+                <a href="https://springframework.guru/spring-boot-web-application-part-2-using-thymeleaf/" class="list-group-item">Part 2 - Using Thymeleaf</a>
+                <a href="https://springframework.guru/spring-boot-web-application-part-3-spring-data-jpa/" class="list-group-item">Part 3 - JPA</a>
+                <a href="https://springframework.guru/spring-boot-web-application-part-4-spring-mvc/" class="list-group-item">Part 4 - MVC</a>
+            </h3>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
